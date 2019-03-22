@@ -6,7 +6,8 @@ pipeline {
 
         stage('Build') {
             steps{
-                echo 'Building Application'}
+                echo 'Building Application'
+		echo "Josh's branch"}
         }
 
         stage('Sonar') {
