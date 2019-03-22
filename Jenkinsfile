@@ -11,7 +11,8 @@ pipeline {
 
         stage('Sonar') {
             steps{
-                echo 'Checking Application'}
+                echo 'Checking Application'
+                echo 'Testing' }
         }
 
         stage('Nexus') {
